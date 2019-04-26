@@ -9,8 +9,8 @@ services:
       - POSTGRES_USER=shareService
       - POSTGRES_DB=shareService
       - POSTGRES_PASSWORD=12345S
-  api:
-    build: ./api
+  userservice:
+    build: ./api/users
     ports:
       - "80:80"
     environment:

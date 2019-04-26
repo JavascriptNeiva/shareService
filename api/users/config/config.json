@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "shareService",
+    "password": 12345,
+    "database": "shareService_development",
+    "host": "db",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "shareService",
+    "password": 12345,
+    "database": "shareService_test",
+    "host": "db",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "shareService",
+    "password": 12345,
+    "database": "shareService_production",
+    "host": "db",
+    "dialect": "postgres"
+  }
+}

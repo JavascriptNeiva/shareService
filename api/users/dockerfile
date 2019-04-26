@@ -2,5 +2,9 @@ FROM node:alpine
 WORKDIR /API
 COPY ./package.json .
 RUN npm install
+RUN npm install -g sequelize-cli
+COPY ./migrations ./migrations
+COPY ./config ./config
+RUN npx sequelize  db:migrate
 COPY ./ ./
 CMD [ "node", "index" ]
