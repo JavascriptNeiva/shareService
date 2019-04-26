@@ -1,0 +1,6 @@
+FROM node:alpine
+WORKDIR /API
+COPY ./package.json .
+RUN npm install
+COPY ./ ./
+CMD [ "node", "index" ]

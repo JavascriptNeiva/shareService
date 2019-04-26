@@ -1,0 +1,29 @@
+{
+  "name": "shareservice_users",
+  "version": "1.0.0",
+  "description": "microservice to app share service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JavascriptNeiva/shareService/users"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "micro",
+    "services",
+    "microservices",
+    "neiva",
+    "neivajs"
+  ],
+  "author": "christian segura @ces1508 <ces1508@gmailcom>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "sequelize": "^5.7.5"
+  }
+}
